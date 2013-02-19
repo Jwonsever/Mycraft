@@ -1,0 +1,45 @@
+Things we've done
+
+Collision Detection
+Textures
+	-Mipmapping
+	-Multiple textures
+	-GL_Clamp (Psuedo Cell Shading)
+Animations
+Block Addition & Subtraction
+Object Selection
+       -Using Raytracer
+HUD Screen Overlay
+Fog
+Shadowing
+Procedural World Generation
+	   -Trees
+	   -Terrains
+	   -Underground Objects
+Block properties/differences
+Tridirectional motions
+	       -Concurent XYZ Motions
+	       -Jumping
+
+//Todo
+Time Interaction
+     Day/Night
+Drops
+     Drop Interaction
+Portals
+	-Animated Textures
+	-Fucking awesome
+	-Thinking with portals
+
+Point and Directional lighting
+      -Torches
+      -Sun
+      -attenuation on point lights
+      -multiple lighting effects
+
+Particle Smoke
+      -Torches
+
+Area Lighting
+     -Sun
+     -Jittering
