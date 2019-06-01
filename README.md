@@ -1,3 +1,16 @@
+
+# Insallation
+
+This project requires gcc, opengl, and glut to run.
+
+```
+> apt-get install libgl1-mesa-dev libx11-dev libxrandr-dev libglu-dev freeglut3
+> make
+> ./main
+```
+
+# Orignal Readme
+
 James Wonsever && Ben Han
 cs184-be && cs184-cn
 
