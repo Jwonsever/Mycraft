@@ -1,5 +1,6 @@
-
 # Insallation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJwonsever%2FMycraft.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJwonsever%2FMycraft?ref=badge_shield)
+
 
 This project requires gcc, opengl, and glut to run.
 
@@ -122,3 +123,6 @@ Portals
     -Teleportation
     -Fucking awesome
     -Thinking with portals
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJwonsever%2FMycraft.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJwonsever%2FMycraft?ref=badge_large)
