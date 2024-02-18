@@ -12,11 +12,6 @@ This project requires gcc, opengl, and glut to run.
 
 # Orignal Readme
 
-James Wonsever && Ben Han
-cs184-be && cs184-cn
-
-See inst.eecs.berkeley.edu/~cs184-be/hw6.html
-
 Our project is an attempt to recreate the popular video	game, Minecraft.  We extended our hw4 and used concepts from hw5 to do so.  If you don't know what minecraft is, try it out here: https://minecraft.net/  It's essentially legos for your computer, but better.  And cooler.
 
 We added many extra credit features from hw4 (Particles, Advanced/Interesting Lighting effects, Texture Mipmaps, Object Interaction, Collision Detection, Displ\
@@ -25,8 +20,6 @@ ay Lists, Procedural World Generation, Portals, and a 2d HUD display.)
 Below are all of the features we implemented, with descriptions.
 
 Things we've done:
-
-Everything from hw4
     -Display Lists
     -Re-Instantiated Objects
     -Transformations
@@ -46,14 +39,13 @@ Collision Detection
     We implemented collision detection between the Human Player (Represented by a 2 height tall object, with the 'eye' at height 1.6) and between all of the blocks in the scene.  There is also a coordinate frame forcing no two blocks to ever be in the same square.
 
 Textures
-    We implemented new features to our texture implementation from hw4, including:
+    We implemented new features to our texture implementation, including:
     -Mipmapping, 3 stages of mipmaps to make textures look more pleasant.
     -Many more textures added, implemented a List + Enum pair representing all the textures.
     -Textures are loaded given only a filename.  Easy to add new textures.
     -GL_Clamp (Psuedo Cell Shading) This gives the black lines around the edge of each block, much faster then wireframe + fill using Opengl.
 
 Animations
-    We implemented animations, similar to hw4.
     -Sun moves around the world.
     -HUD highlights depends on which block you select to use.
 
@@ -88,7 +80,7 @@ Block properties/differences
     -Different textures for sides and top of a block. (Grass)
 
 Tridirectional motions
-    We improved some features of our camera from hw4.
+    We improved some features of our camera.
     -Concurent XYZ Motions (You can move in x and y and the same time, you can jump, all simultaneously.)
     -Jumping (Give the camera an upward impluse, but only if it the human object is touching the ground.)
 
